@@ -69,3 +69,27 @@ header{
     font-weight: 600;
     margin-bottom: 1rem;
 }
+
+button{
+  border: 2px solid var(--darkestBlue);
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: -2px 2px var(--lighestBlue);
+}
+
+button:hover:enabled{
+  transform: translateY(-0.25em);
+  box-shadow: -2px 4px var(--lighestBlue);
+}
+
+#source-code-btn{
+  border: 2px solid var(--darkestBlue);
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: -2px 2px black;
+}
+
+#source-code-btn:hover:enabled{
+  transform: translateY(-0.25em);
+  box-shadow: -2px 4px black;
+}
