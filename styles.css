@@ -1,22 +1,71 @@
-html { 
-    background: url("imgs/backroundImg.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Ubuntu", sans-serif;
-  }
+:root {
+  --darkestBlue: #276678;
+  --lighterBlue: #1687a7;
+  --lighestBlue: #d3e0ea;
+  --lightWhite: #f6f5f5;
+}
 
-  input,
+html {
+  background: url("imgs/backroundImg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chivo Mono', monospace;
+}
+
+input,
 button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   border: none;
   outline: none;
   background: none;
   cursor: pointer;
+}
+
+nav{
+    background-color: var(--lighterBlue);
+  color: var(--lighestBlue);
+  font-weight: 700;
+    display: flex;
+    justify-content:space-around;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+header{
+    margin-top: 1rem;
+    background-color: #f6f5f5;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    overflow-wrap: break-word;
+    width: 847px;
+    margin: auto;
+    margin-top: 2rem;
+    height: 400px;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 368px;
+}
+
+.title{
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 1rem;
 }
