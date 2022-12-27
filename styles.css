@@ -19,6 +19,10 @@ html {
   font-family: 'Chivo Mono', monospace;
 }
 
+header p, .section p{
+  font-size: 26px;
+}
+
 input,
 button {
   -webkit-appearance: none;
@@ -28,6 +32,7 @@ button {
   outline: none;
   background: none;
   cursor: pointer;
+  letter-spacing: .1rem;
 }
 
 nav{
@@ -50,11 +55,26 @@ header{
     overflow-wrap: break-word;
     width: 847px;
     margin: auto;
-    margin-top: 2rem;
-    height: 400px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 620px;
     align-items: center;
     padding-left: 5rem;
     padding-right: 5rem;
+}
+
+.section{
+  width: 847px;
+  margin-bottom: 32px;
+  padding: 1rem;
+}
+
+a{
+  color: var(--lighterBlue);
+}
+#name{
+  color: var(--lightWhite);
+  letter-spacing: .1rem;
 }
 
 .description{
@@ -65,7 +85,7 @@ header{
 }
 
 .title{
-    font-size: 39px;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -93,4 +113,21 @@ button:hover:enabled{
 #source-code-btn:hover:enabled{
   transform: translateY(-0.25em);
   box-shadow: -2px 4px black;
+}
+.about{
+  background-color: var(--darkestBlue);
+  color: var(--lightWhite);
+  text-align: center;
+  margin: auto;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(200px);
+  opacity: 0;
+  transition: 1.2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
