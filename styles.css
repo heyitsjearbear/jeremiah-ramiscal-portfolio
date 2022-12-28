@@ -43,6 +43,9 @@ nav{
     justify-content:space-around;
     padding-top: .5rem;
     padding-bottom: .5rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 header{
@@ -123,7 +126,7 @@ button:hover:enabled{
 
 .reveal{
   position: relative;
-  transform: translateY(200px);
+  transform: translatex(-200px);
   opacity: 0;
   transition: 1.2s all ease;
 }
