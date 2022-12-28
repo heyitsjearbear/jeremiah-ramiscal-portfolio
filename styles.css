@@ -43,9 +43,6 @@ nav{
     justify-content:space-around;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    position: sticky;
-    top: 0;
-    width: 100%;
 }
 
 header{
@@ -122,8 +119,41 @@ button:hover:enabled{
   color: var(--lightWhite);
   text-align: center;
   margin: auto;
+  margin-bottom: 32px;
+}
+.projects{
+  background-color: var(--lightWhite);
+  color: black;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 32px;
+}
+#projects-grid{
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 1rem;
 }
 
+#projects-grid > div{
+  border: 1px solid black;
+  width: 16rem;
+  height: 14rem;
+}
+.project-item{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#weather-app{
+  background-image: url("imgs/weatherappimg.PNG");
+}
+#gratitude-journal{
+  background-image: url("imgs/gratitude-journal-img.PNG");
+}
+#color-canvas{
+  background-image: url("imgs/color-canvas-img.PNG");
+}
 .reveal{
   position: relative;
   transform: translatex(-200px);
