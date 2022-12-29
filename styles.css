@@ -3,6 +3,8 @@
   --lighterBlue: #1687a7;
   --lighestBlue: #d3e0ea;
   --lightWhite: #f6f5f5;
+  --space: 150px;
+  --tall: 620px;
 }
 
 @keyframes transitionIn {
@@ -61,7 +63,6 @@ nav{
 }
 
 header{
-    margin-top: 1rem;
     background-color: #f6f5f5;
     display: flex;
     justify-content: space-around;
@@ -71,7 +72,7 @@ header{
     width: 847px;
     margin: auto;
     margin-top: 32px;
-    margin-bottom: 32px;
+    margin-bottom: var(--space);
     height: 620px;
     align-items: center;
     padding-left: 5rem;
@@ -134,14 +135,24 @@ button:hover:enabled{
   color: var(--lightWhite);
   text-align: center;
   margin: auto;
-  margin-bottom: 32px;
+  margin-bottom: var(--space);
+  height: var(--tall);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .projects{
   background-color: var(--lightWhite);
   color: black;
   text-align: center;
   margin: auto;
-  margin-bottom: 32px;
+  margin-bottom: var(--space);
+  height: var(--tall);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #projects-grid{
   justify-content: space-evenly;
