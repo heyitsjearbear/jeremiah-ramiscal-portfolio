@@ -84,6 +84,14 @@ header{
   width: 70vw;
   margin-bottom: 32px;
   padding: 1rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: var(--space);
+  height: var(--tall);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 a{
@@ -99,6 +107,7 @@ a{
     flex-direction: column;
     justify-content: space-between;
     width: 368px;
+    margin-right: 2rem;
 }
 
 .title{
@@ -134,26 +143,16 @@ button:hover{
 .about{
   background-color: var(--darkestBlue);
   color: var(--lightWhite);
-  text-align: center;
-  margin: auto;
-  margin-bottom: var(--space);
-  height: var(--tall);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
 }
 .projects{
   background-color: var(--lightWhite);
   color: black;
-  text-align: center;
-  margin: auto;
-  margin-bottom: var(--space);
-  height: var(--tall);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.contact{
+  display: block;
+  background-color: var(--lighterBlue);
 }
 #projects-grid{
   width: 100%;
@@ -195,4 +194,13 @@ button:hover{
 .reveal.active{
   transform: translatex(0);
   opacity: 1;
+}
+
+input[type=text],input[type=email]{
+  background-color: white;
+  cursor: text;
+}
+
+textarea{
+  resize: none;
 }

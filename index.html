@@ -19,10 +19,10 @@
       <div class="description">
         <div class="title">Welcome to my portfolio page!</div>
         <div class="caption">
-          <p>I would like to showcase my web-development skill thus</p>
-          <p>far through self-learning. This page isn't too crazy nice</p>
-          <p>and elegant, but I hope with time I will be able to improve</p>
-          <p>this page.</p>
+          <p>
+            By day I am a university student.
+            By night I am a <br>self-taught web developer.
+          </p>
         </div>
       </div>
       <div>Another image here</div>
@@ -66,22 +66,30 @@
     </div>
     <div class = "contact section reveal">
       <div class = "title">Contact</div>
-      <h2>Hello world. It's nice to meet you.</h2>
+      <h2>
+        Want to have a quick chat about all things
+        <br>school and tech-related?
+      </h2>
       <p>
-        I am university student trying to break into tech.
-        <br />
-        Along side my course work, I am self-teaching myself
-        <br />
-        fullstack-development through projects
-        <br />
-        and online curriculums such as
-        <a href="https://www.theodinproject.com/"> The Odin Project. </a>
-        <br>
-        I am a naturally curious individual, <br>
-        hungry for knowledge, and likes
-        <br>
-        to problem-solve.
+        Contact me using the form below
+        <br> and we can have chat!
       </p>
+      <div class = "submit-form">
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <br><input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Your Email: <br><input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Message: <br><textarea cols = "62" rows = "12" name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      </div>
     </div>
     <nav>
       <p id="name">Jeremiah Ramiscal</p>
