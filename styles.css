@@ -202,4 +202,6 @@ input[type=text],input[type=email]{
 
 textarea{
   resize: none;
+  height: 45%;
+  width: 50%;
 }
