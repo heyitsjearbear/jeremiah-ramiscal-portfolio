@@ -5,6 +5,7 @@
   --lightWhite: #f6f5f5;
   --space: 200px;
   --tall: 620px;
+  background-color: var(--darkestBlue);
 }
 
 @keyframes transitionIn {
