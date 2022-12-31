@@ -199,12 +199,14 @@ button:hover{
 input[type=text],input[type=email]{
   background-color: white;
   cursor: text;
+  font-size: 17px;
 }
 
 textarea{
   resize: none;
   height: 45%;
   width: 50%;
+  font-size: 17px;
 }
 @media (max-width:650px){
   nav{
