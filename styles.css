@@ -154,6 +154,7 @@ button:hover{
 .contact{
   display: block;
   background-color: var(--lighterBlue);
+  height: fit-content;
 }
 #projects-grid{
   width: 100%;
@@ -228,5 +229,8 @@ textarea{
 
   .section{
     height: fit-content;
+  }
+  textarea{
+    width: 90%;
   }
 }
