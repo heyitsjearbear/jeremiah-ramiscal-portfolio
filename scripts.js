@@ -12,7 +12,25 @@ const reveal = () => {
   }
 };
 
+let aboutBtn = document.querySelector("#about-button");
+let projectsBtn = document.querySelector("#projects-button");
+let contactBtn = document.querySelector("#contact-button");
+let aboutSection = document.querySelector(".about");
+let projectsSection = document.querySelector(".projects");
+let contactSection = document.querySelector(".contact")
 
+aboutBtn.addEventListener("click", () => {
+  console.log(aboutSection.offsetTop)
+  window.scrollTo(0, aboutSection.offsetTop-60);
+});
+
+projectsBtn.addEventListener("click", () => {
+  window.scrollTo(0, projectsSection.offsetTop-60);
+});
+
+contactBtn.addEventListener("click", () => {
+  window.scrollTo(0, contactSection.offsetTop-60);
+});
   
 window.addEventListener("scroll", reveal);
 
