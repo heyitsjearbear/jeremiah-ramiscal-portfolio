@@ -17,6 +17,7 @@ let projectsBtn = document.querySelector("#projects-button");
 let contactBtn = document.querySelector("#contact-button");
 let blogBtn = document.querySelector("#blog-button");
 let aboutSection = document.querySelector(".about");
+let myStorySection = document.querySelector(".story");
 let projectsSection = document.querySelector(".projects");
 let contactSection = document.querySelector(".contact");
 

@@ -197,6 +197,9 @@ button:hover{
   transform: translatex(0);
   opacity: 1;
 }
+.my-story{
+  background-color: var(--lightWhite);
+}
 
 input[type=text],input[type=email]{
   background-color: white;
