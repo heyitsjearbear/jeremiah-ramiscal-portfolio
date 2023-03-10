@@ -15,9 +15,10 @@ const reveal = () => {
 let aboutBtn = document.querySelector("#about-button");
 let projectsBtn = document.querySelector("#projects-button");
 let contactBtn = document.querySelector("#contact-button");
+let blogBtn = document.querySelector("#blog-button");
 let aboutSection = document.querySelector(".about");
 let projectsSection = document.querySelector(".projects");
-let contactSection = document.querySelector(".contact")
+let contactSection = document.querySelector(".contact");
 
 aboutBtn.addEventListener("click", () => {
   console.log(aboutSection.offsetTop)
@@ -30,6 +31,11 @@ projectsBtn.addEventListener("click", () => {
 
 contactBtn.addEventListener("click", () => {
   window.scrollTo(0, contactSection.offsetTop-60);
+});
+
+blogBtn.addEventListener("click", () => {
+  console.log("blog button clicked");
+  window.location = "blog.html";
 });
   
 window.addEventListener("scroll", reveal);
