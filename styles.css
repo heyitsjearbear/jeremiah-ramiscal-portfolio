@@ -202,7 +202,12 @@ button:hover{
   background-color: var(--lightWhite);
   width: 80vw;
   margin: auto;
+  margin-top: 67px;
   padding:25px;
+  animation: transitionIn 1s;
+}
+.my-story h2{
+  margin-top: 16px;
 }
 
 input[type=text],input[type=email]{

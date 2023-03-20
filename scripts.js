@@ -38,6 +38,7 @@ blogBtn.addEventListener("click", () => {
   console.log("blog button clicked");
   window.location = "blog.html";
 });
+
   
 window.addEventListener("scroll", reveal);
 
